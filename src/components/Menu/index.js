@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Container, LogoBar, Options, Footer } from './styles';
-import logo from '../../assets/logo.png';
+import logoStarctron from '../../assets/logo-starctron.png';
+import iconStarctron from '../../assets/icon-starctron.png';
 import { Link } from 'react-router-dom';
 import { FiGrid, FiLayers, FiLogOut, FiBook, FiCalendar, FiMessageSquare, FiAlignLeft } from 'react-icons/fi';
 import { FaUser, FaHome } from 'react-icons/fa';
@@ -67,7 +68,7 @@ function Menu(props){
     return (
         <Container>   
             <LogoBar>
-                <img style={{width: props.isSmallMenu ? '50%' : '20%'}} src={logo} alt="Logo"/>
+                <img style={{width: '50%'}} src={props.isSmallMenu ? iconStarctron : logoStarctron} alt="Logo"/>
             </LogoBar>
             
             <Options>

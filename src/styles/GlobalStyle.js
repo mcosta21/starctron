@@ -24,7 +24,6 @@ export const GlobalStyle = createGlobalStyle`
 
   ::-webkit-scrollbar {
     width: 8px;
-    border-radius: 4px;
   }
   
   ::-webkit-scrollbar-track {

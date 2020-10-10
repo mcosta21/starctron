@@ -17,13 +17,20 @@ export const LogoBar = styled.main`
 export const Options = styled.div`
     width: inherit;
     height: 77vh;
+    overflow-x: hidden;
     overflow-y: auto;
+    direction: rtl;
+
+    ::-webkit-scrollbar {
+        width: 4px;
+      }
 
     a:first-child {
         margin-top: 10px;
     }
 
     a {
+        direction: ltr;
         text-decoration: none;
         width: inherit;
         height: 45px;
