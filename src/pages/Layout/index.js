@@ -1,8 +1,11 @@
 import React from 'react';
 import Body from '../../components/Body';
-import { Title, Subtitle, Box } from './styles';
+import { } from './styles';
 import Row from '../../components/Row';
 import Column from '../../components/Column';
+import Title from '../../components/Title';
+import Subtitle from '../../components/Subtitle';
+import Box from '../../components/Box';
 
 function Layout() {
   return (

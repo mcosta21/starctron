@@ -4,7 +4,6 @@ const BrowserWindow = electron.BrowserWindow;
 const Menu = electron.Menu;
 
 const path = require('path');
-const url = require('url');
 const isDev = require('electron-is-dev');
 
 let mainWindow;
@@ -13,6 +12,7 @@ function createWindow() {
   mainWindow = new BrowserWindow({
     width: 900, 
     height: 680,
+    icon: path.join(__dirname, '../src/assets/icon-starctron.png'),
     webPreferences: {
       nodeIntegration: true
     }

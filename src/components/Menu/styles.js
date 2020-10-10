@@ -83,7 +83,7 @@ export const Footer = styled.footer`
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        border-left: 1px solid ${props => props.theme.backgrounds.darker};
+        border: 1px solid ${props => props.theme.backgrounds.darker};
         animation: footer-width .5s;
         opacity: 1
     }

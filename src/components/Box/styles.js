@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Box = styled.div`
+export const Container = styled.div`
     background: ${props => props.theme.backgrounds.lightest};
     margin: 0 20px;   
     height: inherit;     
@@ -9,4 +9,3 @@ export const Box = styled.div`
     align-items: center;
     justify-content: center;
 `
-

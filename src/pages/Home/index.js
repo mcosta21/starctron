@@ -1,8 +1,9 @@
 import React from 'react';
 import Body from '../../components/Body';
-import { Title, Box } from './styles';
+import { } from './styles';
 import Row from '../../components/Row';
 import Column from '../../components/Column';
+import Box from '../../components/Box';
 
 function Home() {
   return (

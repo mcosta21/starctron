@@ -9,10 +9,3 @@ export const Box = styled.div`
     align-items: center;
     justify-content: center;
 `
-
-export const Title = styled.h3`
-    margin: 10px 20px;   
-`
-export const Subtitle = styled.h5`
-    margin: 10px 20px;   
-`
