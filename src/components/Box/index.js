@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container } from './styles';
 
-function Box({ children }){
+function Box({ children, flexDirection}){
     return (
-        <Container>
+        <Container flexDirection={flexDirection}>
             {children}
         </Container>
     )    

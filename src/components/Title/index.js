@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container } from './styles';
 
-function Title({ children }){
+function Title({ size, children }){
     return (
-        <Container>
+        <Container size={size}>
             {children}
         </Container>
     )    

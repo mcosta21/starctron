@@ -6,6 +6,7 @@ export const Container = styled.div`
     height: inherit;     
     border-radius: 4px;
     display: flex;
+    flex-direction: ${props => props.flexDirection ? props.flexDirection : 'unset'};
     align-items: center;
     justify-content: center;
 `

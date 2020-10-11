@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container } from './styles';
 
-function Subtitle({ children }){
+function Subtitle({ size, color, children }){
     return (
-        <Container>
+        <Container size={size} color={color}>
             {children}
         </Container>
     )    

@@ -15,6 +15,7 @@ export const colorsTheme = {
 }
 
 export const darkTheme = {
+  name: 'dark',
   backgrounds: {
     lightest: '#252131',
     lighter: '#201B2D',
@@ -33,6 +34,7 @@ export const darkTheme = {
 }
 
 export const lightTheme = {
+  name: 'light',
   backgrounds: {
     lightest:  '#FFFFFF',
     lighter: '#FEFEFE',

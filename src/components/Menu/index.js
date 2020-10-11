@@ -8,6 +8,7 @@ import { FaUser, FaHome } from 'react-icons/fa';
 import { RiLockPasswordFill } from 'react-icons/ri'
 import { ImListNumbered } from 'react-icons/im';
 import SmallButton from '../SmallButton';
+import Title from '../Title';
 
 function Menu(props){
 
@@ -68,7 +69,7 @@ function Menu(props){
     return (
         <Container>   
             <LogoBar>
-                <img style={{width: '50%'}} src={props.isSmallMenu ? iconStarctron : logoStarctron} alt="Logo"/>
+                <img style={{width: props.isSmallMenu ? '50%': '20%'}} src={iconStarctron} alt="Logo"/>{!props.isSmallMenu && <Title>Starctron</Title>}
             </LogoBar>
             
             <Options>
