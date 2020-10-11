@@ -44,7 +44,9 @@ function Home() {
                         <Subtitle>Your Electron template with React JS ready for you to enjoy your creativity.</Subtitle>
                         <Subtitle size={10}>Seu template Electron com React JS pronto para você desfrutar sua criatividade.</Subtitle>
                         <br />
-                        <SwitchButton onClick={handleChangeTheme} value={stateTheme}/>
+                        <aside>
+                          <Subtitle>{themeName} theme</Subtitle><SwitchButton onClick={handleChangeTheme} value={stateTheme}/>
+                        </aside>
                     </Content>
                   </Box>
                 </Column>

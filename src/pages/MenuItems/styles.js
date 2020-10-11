@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
-    display: grid;
-    align-content: center;
+export const Navigator = styled.div`
+    display: flex;
+    align-items: center;
     justify-content: center;
-    text-align: center;
-    
-    h3 {
-        margin-top: 40px;
+    margin: 10px 0;
+
+    img {
+        margin: 10px;
     }
 `;

@@ -1,6 +1,6 @@
 import React from 'react';
 import Body from '../../components/Body';
-import { } from './styles';
+//import { } from './styles';
 import Row from '../../components/Row';
 import Column from '../../components/Column';
 import Title from '../../components/Title';

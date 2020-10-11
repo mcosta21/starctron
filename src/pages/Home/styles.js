@@ -7,4 +7,13 @@ export const Content = styled.div`
     p {
         margin-top: 20px;
     }
+
+    aside {
+        display: inline-flex;
+        align-items: center;
+    }
+    
+    aside h3 {
+        text-transform: capitalize;
+    }
 `

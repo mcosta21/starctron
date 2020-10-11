@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Container, LogoBar, Options, Footer } from './styles';
-import logoStarctron from '../../assets/logo-starctron.png';
 import iconStarctron from '../../assets/icon-starctron.png';
 import { Link } from 'react-router-dom';
 import { FiGrid, FiLayers, FiLogOut, FiBook, FiCalendar, FiMessageSquare, FiAlignLeft } from 'react-icons/fi';
@@ -105,8 +104,6 @@ function Menu(props){
                         <SmallButton><FiCalendar size={18}/></SmallButton>
                     </div>
                 }
-                
-
                 
             </Footer>
             
