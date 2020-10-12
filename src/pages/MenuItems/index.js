@@ -14,10 +14,11 @@ function MenuItems() {
 
             <Title>How the menu on left works!</Title>
             <Subtitle>Como funciona o menu à esquerda!</Subtitle>
-            <Row height={450}>
+            <Row height={460}>
               <Column>
                 <Box grid flexDirection="column">
-                  <Title>English</Title>
+                  <br/>
+                  <Title size={18}>English</Title>
                   <Subtitle size={11}>
                       
                       Navigating to <strong>components</strong> folder, you will find the <strong>Menu</strong> component.
@@ -31,23 +32,23 @@ function MenuItems() {
                         Menu
                       </Navigator>
 
-                      Note that its structure is based on <strong>options</strong> constant, wich will be rendered by a <strong>map</strong>. 
+                      Note that its structure is based on <strong>options</strong> constant, which will be rendered by a <strong>map</strong>. 
                       <br/>Then, for each <strong>option</strong>, a React-router-dom <strong>Link</strong> is available with the following attributes:
                       
                       <Navigator>
                         { '{ '} 
                         <br />   
-                        { "title: 'Home'," }
+                        title: 'Home',
                         <br />
-                        { "link: '/home'," } 
+                        link: '/home',
                         <br />
-                        { "icon: <FaHome size={20}/>"} 
+                        icon:  {'<FaHome size={20}/>'}
                         <br />
                         { '}'}
-                    </Navigator>
+                      </Navigator>
 
-                    Por fim, basta acessar o arquivo <strong>routes.js</strong> na raiz do projeto, e incluir as novas rotas para cada página, 
-                    <br />correlacionando-as com o atributo link da <strong>option</strong>.
+                    Finally, just access the <strong>routes.js</strong> file at the root of the project, and include the new routes for each page,
+                    <br />correlating them with the <strong>option's</strong> link attribute.
                     <Navigator>
                       <img alt="" width="20" src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/8dfb4a298163bf551c24011aae0c6ed38f148b2c/icons/routing.svg"/>
                       routes.js
@@ -57,10 +58,11 @@ function MenuItems() {
               </Column>
             </Row>
             
-            <Row height={450}>
+            <Row height={460}>
               <Column>
                 <Box grid flexDirection="column">
-                  <Title>Português</Title>
+                  <br/>
+                  <Title size={18}>Português</Title>
                   <Subtitle size={11}>
                       
                       Navegando até a pasta <strong>components</strong>, você vai encontrar o componente <strong>Menu</strong>.
@@ -80,14 +82,14 @@ function MenuItems() {
                       <Navigator>
                         { '{ '} 
                         <br />   
-                        { "title: 'Home'," }
+                        title: 'Home',
                         <br />
-                        { "link: '/home'," } 
+                        link: '/home',
                         <br />
-                        { "icon: <FaHome size={20}/>"} 
+                        icon:  {'<FaHome size={20}/>'}
                         <br />
                         { '}'}
-                    </Navigator>
+                      </Navigator>
 
                     Por fim, basta acessar o arquivo <strong>routes.js</strong> na raiz do projeto, e incluir as novas rotas para cada página, 
                     <br />correlacionando-as com o atributo link da <strong>option</strong>.
