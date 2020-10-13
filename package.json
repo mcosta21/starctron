@@ -29,8 +29,11 @@
       "build/**/*",
       "node_modules/**/*"
     ],
+    "win": {
+      "icon": "src/assets/icon-starctron-256x256.ico"
+    },
     "directories": {
-      "buildResources": "assets"
+      "buildResources": "src/assets"
     }
   },
   "scripts": {

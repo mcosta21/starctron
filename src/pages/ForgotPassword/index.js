@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container } from './styles';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/icon-starctron_600x600.png';
 import { users } from '../../services/users';
 import { Link } from 'react-router-dom';
 import Column from '../../components/Column';

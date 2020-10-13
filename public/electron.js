@@ -1,5 +1,6 @@
 const electron = require('electron');
 const app = electron.app;
+const nativeImage = electron.nativeImage;
 const BrowserWindow = electron.BrowserWindow;
 const Menu = electron.Menu;
 
@@ -12,7 +13,7 @@ function createWindow() {
   mainWindow = new BrowserWindow({
     width: 900, 
     height: 680,
-    icon: path.join(__dirname, '../src/assets/icon-starctron.png'),
+    icon: nativeImage.createFromPath(path.join(__dirname, '../src/assets/icon-starctron-256x256.ico')),
     webPreferences: {
       nodeIntegration: true
     }

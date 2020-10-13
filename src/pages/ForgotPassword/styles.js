@@ -24,9 +24,9 @@ export const Container = styled.div`
     }
 
     @keyframes logo {
-        0%   {transform: scale(1);}
-        50% {transform: scale(1.1);}
-        100% {transform: scale(1);}
+        0%   {transform: scale(0.8);}
+        50% {transform: scale(0.9);}
+        100% {transform: scale(0.8);}
     }
 
     & form {

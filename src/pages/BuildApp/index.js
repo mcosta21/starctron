@@ -160,7 +160,6 @@ function BuildApp() {
                     apenas remova o comando.
 
                     <br />
-                    <br />
 
                     Agora que fizemos essas personalizações, vamos para o processo 
                     de <strong>build</strong> do aplicativo. Então, acesse o arquivo <strong>package.json</strong>.
@@ -197,7 +196,6 @@ function BuildApp() {
                       {'}'}
                     </Navigator>
 
-                    <br />
                     <br />
 
                     Finalmente, abra o terminal e execute o seguinte comando:
