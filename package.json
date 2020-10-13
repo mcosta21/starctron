@@ -1,9 +1,12 @@
 {
   "name": "starctron",
-  "description": "Project in Electron and React",
-  "version": "0.1.1",
+  "description": "Your Electron template with React JS ready for you to enjoy your creativity.",
+  "version": "0.0.1",
   "main": "public/electron.js",
-  "author": "Marcio Costa",
+  "author": {
+    "name": "Marcio Costa",
+    "email": "marcioc424@gmail.com"
+  },
   "homepage": "./",
   "private": true,
   "dependencies": {
@@ -21,7 +24,7 @@
     "styled-components": "^5.1.1"
   },
   "build": {
-    "appId": "com.react.electron",
+    "appId": "com.starctron",
     "files": [
       "build/**/*",
       "node_modules/**/*"
