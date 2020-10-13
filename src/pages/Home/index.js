@@ -34,7 +34,7 @@ function Home() {
   return (
           <Body active="Home">
 
-              <Row height={600}>
+              <Row height={700}>
                 <Column>
                   <Box flexDirection="column">
                     <img alt="Starctron" src={logo} />
@@ -43,6 +43,12 @@ function Home() {
                         <br />
                         <Subtitle>Your Electron template with React JS ready for you to enjoy your creativity.</Subtitle>
                         <Subtitle size={10}>Seu template Electron com React JS pronto para você desfrutar sua criatividade.</Subtitle>
+                        <aside>
+                          <Subtitle size={11}>
+                            execute on terminal <br/>
+                            <strong>yarn electron-dev</strong> or <strong>npm run electron-dev</strong>
+                          </Subtitle>
+                        </aside>
                         <br />
                         <aside>
                           <Subtitle>{themeName} theme</Subtitle><SwitchButton onClick={handleChangeTheme} value={stateTheme}/>

@@ -6,6 +6,7 @@ import Layout from './pages/Layout';
 import MenuItems from './pages/MenuItems';
 import ContextApi from './pages/ContextApi';
 import UserLogin from './pages/UserLogin';
+import BuildApp from './pages/BuildApp';
 import Theme from './pages/Theme';
 import Page1 from './pages/Page1';
 import Page2 from './pages/Page2';
@@ -33,6 +34,7 @@ function Routes() {
             <Route path="/menuitems" component={MenuItems} />
             <Route path="/contextapi" component={ContextApi} />
             <Route path="/userlogin" component={UserLogin} />
+            <Route path="/BuildApp" component={BuildApp} />
             <Route path="/theme" component={Theme} />
             <Route path="/page1" component={Page1} />
             <Route path="/page2" component={Page2} />

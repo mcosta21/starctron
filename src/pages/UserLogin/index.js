@@ -17,10 +17,10 @@ function UserLogin() {
                 <Box grid flexDirection="column">
                   <Title size={18}>English</Title>
                   <Subtitle size={11}>
-                  As stated on the <strong>Context API</strong> page, we created a simple login system to keep 
-                  the user throughout the session using the <strong>LoginContext</strong>, so you can access 
-                  the <strong>services </strong> folder and customize <strong>user.js</strong> with your own 
-                  method to connect to the database and integrate into the <i>SignIn</i> and <i>ForgotPassword</i> pages.
+                    As stated on the <strong>Context API</strong> page, we created a simple login system to keep 
+                    the user throughout the session using the <strong>LoginContext</strong>, so you can access 
+                    the <strong>services </strong> folder and customize <strong>user.js</strong> with your own 
+                    method to connect to the database and integrate into the <i>SignIn</i> and <i>ForgotPassword</i> pages.
                   
                     <Navigator>
                       <img alt="" width="20" src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/8dfb4a298163bf551c24011aae0c6ed38f148b2c/icons/folder-src.svg"/>

@@ -33,7 +33,7 @@ function MenuItems() {
                       </Navigator>
 
                       Note that its structure is based on <strong>options</strong> constant, which will be rendered by a <strong>map</strong>. 
-                      <br/>Then, for each <strong>option</strong>, a React-router-dom <strong>Link</strong> is available with the following attributes:
+                      Then, for each <strong>option</strong>, a React-router-dom <strong>Link</strong> is available with the following attributes:
                       
                       <Navigator>
                         { '{ '} 
@@ -48,7 +48,7 @@ function MenuItems() {
                       </Navigator>
 
                     Finally, just access the <strong>routes.js</strong> file at the root of the project, and include the new routes for each page,
-                    <br />correlating them with the <strong>option's</strong> link attribute.
+                    correlating them with the <strong>option's</strong> link attribute.
                     <Navigator>
                       <img alt="" width="20" src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/8dfb4a298163bf551c24011aae0c6ed38f148b2c/icons/routing.svg"/>
                       routes.js

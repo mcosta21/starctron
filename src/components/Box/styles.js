@@ -11,4 +11,5 @@ export const Container = styled.div`
     justify-content: center;
     overflow-y: overlay;
     padding: 12px 30px;
+    text-align: justify;
 `

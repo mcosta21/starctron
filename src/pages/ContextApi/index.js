@@ -19,7 +19,7 @@ function ContextApi() {
                   <Subtitle size={11}>
                       The Context API is how React makes data available from 
                       parent to child components via <strong>props</strong>.
-                      <br />Thus, it's not necessary to explicitly pass 
+                      Thus, it's not necessary to explicitly pass 
                       the <strong>props</strong> on each component.
 
                       <br />
@@ -63,7 +63,7 @@ function ContextApi() {
                   <Subtitle size={11}>
                       O Context API é forma que o React disponibiliza dados passando de componentes 
                       pai para filho via <strong>props</strong>.
-                      <br />Dessa forma, não é necessário passar 
+                      Dessa forma, não é necessário passar 
                       explicitamente as <strong>props</strong> em cada componente. 
 
                       <br />
