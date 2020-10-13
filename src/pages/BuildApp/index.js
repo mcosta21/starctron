@@ -12,7 +12,7 @@ function BuildApp() {
           <Body active="Build the App">
             <Title>Let's create your app</Title>
             <Subtitle>Vamos criar seu app</Subtitle>
-            <Row height={1100}>
+            <Row height={1200}>
               <Column>
                 <Box grid flexDirection="column">
                   <Title size={18}>English</Title>
@@ -115,7 +115,7 @@ function BuildApp() {
               </Column>
             </Row>
 
-            <Row height={1100}>
+            <Row height={1200}>
               <Column>
                 <Box grid flexDirection="column">
                   <Title size={18}>Português</Title>

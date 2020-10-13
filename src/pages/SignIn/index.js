@@ -4,6 +4,7 @@ import logo from '../../assets/logo.png';
 import { users } from '../../services/users';
 import { Link, useHistory } from 'react-router-dom';
 import { LoginContext } from '../../contexts/LoginContext';
+import Column from '../../components/Column';
 
 function SignIn() {
 
@@ -48,41 +49,46 @@ function SignIn() {
   }  
 
   return (
-          <Container>
-            <form onSubmit={handleSubmit}>
-              <section>
-                <img src={logo} alt="Logo"/>
+        <Container>
+            <Column width={70}>
+              <img src={logo} alt="Logo"/>
+            </Column>
+            <Column width={30}>
+              <form onSubmit={handleSubmit}>
+                <section>
+                  <img src={logo} alt="Logo"/>
 
-                <div className="field">
-                    <label htmlFor="username">Usuário</label>
-                    <input 
-                        type="text"
-                        name="username"
-                        id="username"
-                        onChange={handleInputChange}
-                    />
-                </div>
+                  <div className="field">
+                      <label htmlFor="username">Usuário</label>
+                      <input 
+                          type="text"
+                          name="username"
+                          id="username"
+                          onChange={handleInputChange}
+                      />
+                  </div>
 
-                <div className="field">
-                    <label htmlFor="password">Senha</label>
-                    <input 
-                        type="password"
-                        name="password"
-                        id="password"
-                        onChange={handleInputChange}
-                    />
-                </div>
+                  <div className="field">
+                      <label htmlFor="password">Senha</label>
+                      <input 
+                          type="password"
+                          name="password"
+                          id="password"
+                          onChange={handleInputChange}
+                      />
+                  </div>
 
-                <div className="button-group">
-                  <button type="submit">Entrar</button>
-                  <Link to="/forgotpassword">Esqueci minha senha.</Link>
-                </div>
+                  <div className="button-group">
+                    <button type="submit">Entrar</button>
+                    <Link to="/forgotpassword">Esqueci minha senha.</Link>
+                  </div>
 
-                <div className="message-validator">
-                  {messageValidator !== '' && <p>{messageValidator}</p>}
-                </div>
-              </section>
-            </form>
+                  <div className="message-validator">
+                    {messageValidator !== '' && <p>{messageValidator}</p>}
+                  </div>
+                </section>
+              </form>
+            </Column>
           </Container>
   );
 }

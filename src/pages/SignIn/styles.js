@@ -1,19 +1,36 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    display: grid;
-    align-content: center;
-    justify-content: flex-end;
+    display: flex;
     text-align: center;
     width: 100vw;
     height: 100vh;
     color: ${props => props.theme.colors.lightest};
     
+    & div:first-child {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    & div:first-child img {
+        animation-name: logo;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        opacity: .5
+    }
+
+    @keyframes logo {
+        0%   {transform: scale(1);}
+        50% {transform: scale(1.1);}
+        100% {transform: scale(1);}
+    }
+
     & form {
-        width: 500px;
         height: inherit;
         background: ${props => props.theme.backgrounds.lightest};
-        display: grid;
+        display: flex;
         align-items: center;
         justify-content: center;
     }

@@ -3,6 +3,7 @@ import { Container } from './styles';
 import logo from '../../assets/logo.png';
 import { users } from '../../services/users';
 import { Link } from 'react-router-dom';
+import Column from '../../components/Column';
 
 function ForgotPassword() {
 
@@ -45,30 +46,35 @@ function ForgotPassword() {
 
   return (
           <Container>
-            <form onSubmit={handleSubmit}>
-              <section>
-                <img src={logo} alt="Logo"/>
+            <Column width={70}>
+              <img src={logo} alt="Logo"/>
+            </Column>
+            <Column width={30}>
+              <form onSubmit={handleSubmit}>
+                <section>
+                  <img src={logo} alt="Logo"/>
 
-                <div className="field">
-                    <label htmlFor="email">E-mail</label>
-                    <input 
-                        type="email"
-                        name="email"
-                        id="email"
-                        onChange={handleInputChange}
-                    />
-                </div>
+                  <div className="field">
+                      <label htmlFor="email">E-mail</label>
+                      <input 
+                          type="email"
+                          name="email"
+                          id="email"
+                          onChange={handleInputChange}
+                      />
+                  </div>
 
-                <div className="button-group">
-                  <button type="submit">Resetar senha</button>
-                  <Link to="/signin">Voltar</Link>
-                </div>
+                  <div className="button-group">
+                    <button type="submit">Resetar senha</button>
+                    <Link to="/signin">Voltar</Link>
+                  </div>
 
-                <div className="message-validator">
-                  {messageValidator !== '' && <p>{messageValidator}</p>}
-                </div>
-              </section>
-            </form>
+                  <div className="message-validator">
+                    {messageValidator !== '' && <p>{messageValidator}</p>}
+                  </div>
+                </section>
+              </form>
+            </Column>
           </Container>
   );
 }
