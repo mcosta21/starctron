@@ -1,5 +1,5 @@
 {
-  "name": "react-electron",
+  "name": "starctron",
   "description": "Project in Electron and React",
   "version": "0.1.1",
   "main": "public/electron.js",

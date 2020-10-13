@@ -4,8 +4,9 @@ import iconStarctron from '../../assets/icon-starctron.png';
 import { Link } from 'react-router-dom';
 import { FiGrid, FiLayers, FiLogOut, FiBook, FiCalendar, FiMessageSquare, FiAlignLeft } from 'react-icons/fi';
 import { FaUser, FaHome } from 'react-icons/fa';
-import { RiLockPasswordFill } from 'react-icons/ri'
+import { RiLockPasswordFill, RiShieldUserLine, RiLayoutColumnFill } from 'react-icons/ri'
 import { ImListNumbered } from 'react-icons/im';
+import { AiFillApi } from 'react-icons/ai';
 import SmallButton from '../SmallButton';
 import Title from '../Title';
 
@@ -28,6 +29,21 @@ function Menu(props){
             title: 'Menu Items',
             link: '/menuitems',
             icon: <ImListNumbered size={20}/> // Put a Icon Component here
+        },
+        {
+            title: 'Context API',
+            link: '/contextapi',
+            icon: <AiFillApi size={20}/> // Put a Icon Component here
+        },
+        {
+            title: 'User Login',
+            link: '/userlogin',
+            icon: <RiShieldUserLine size={20}/> // Put a Icon Component here
+        },
+        {
+            title: 'Theme',
+            link: '/theme',
+            icon: <RiLayoutColumnFill size={20}/> // Put a Icon Component here
         },
         {
             title: 'Page 1',

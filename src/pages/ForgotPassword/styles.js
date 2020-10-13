@@ -47,6 +47,7 @@ export const Container = styled.div`
         padding: 16px 24px;
         font-size: 16px;
         color: ${props => props.theme.colors.lightest};
+        background: ${props => props.theme.backgrounds.dark};
     }
 
     & .button-group {
@@ -68,6 +69,7 @@ export const Container = styled.div`
         border: none;
         border-radius: 4px;
         cursor: pointer;
+        color: ${props => props.theme.colors.dark};
         background: ${props => props.theme.backgrounds.darker};
     }
 

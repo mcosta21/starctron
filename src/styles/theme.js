@@ -24,11 +24,11 @@ export const darkTheme = {
     darkest: '#13111B'
   },
   colors: {
-    lightest: '#FFF',
-    lighter: '#F7F8FC',
-    dark: '#F8F8F8',
-    darker: '#F0F4F4',
-    darkest: '#C1C6E0'
+    lightest:  '#FFFFFF',
+    lighter: '#FEFEFE',
+    dark: '#F5F5FC',
+    darker: '#D8DCF3',
+    darkest: '#CCC8C8',
   },
   colorsTheme
 }

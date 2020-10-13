@@ -14,7 +14,7 @@ function MenuItems() {
 
             <Title>How the menu on left works!</Title>
             <Subtitle>Como funciona o menu à esquerda!</Subtitle>
-            <Row height={460}>
+            <Row height={470}>
               <Column>
                 <Box grid flexDirection="column">
                   <br/>
@@ -58,7 +58,7 @@ function MenuItems() {
               </Column>
             </Row>
             
-            <Row height={460}>
+            <Row height={470}>
               <Column>
                 <Box grid flexDirection="column">
                   <br/>
