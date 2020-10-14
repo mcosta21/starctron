@@ -15,7 +15,7 @@ function Theme() {
             <Row height={400}>
               <Column>
                 <Box grid flexDirection="column">
-                  <Title size={18}>Português</Title>
+                  <Title size={18}>English</Title>
                   <Subtitle size={11}>
                       Accessing the <strong> styles </strong> folder, you can customize all the colors 
                       available in the application.

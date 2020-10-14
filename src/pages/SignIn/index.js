@@ -10,8 +10,8 @@ function SignIn() {
 
   const [messageValidator, setMessageValidator] = useState('');
   const [formData, setFormData] = useState({
-      username: '',
-      password: ''
+      username: 'mcosta',
+      password: '12345'
   });
   const history = useHistory();
   const context = useContext(LoginContext);
@@ -64,6 +64,7 @@ function SignIn() {
                           type="text"
                           name="username"
                           id="username"
+                          value={formData.username}
                           onChange={handleInputChange}
                       />
                   </div>
@@ -74,6 +75,7 @@ function SignIn() {
                           type="password"
                           name="password"
                           id="password"
+                          value={formData.password}
                           onChange={handleInputChange}
                       />
                   </div>
