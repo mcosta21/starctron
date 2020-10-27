@@ -23,10 +23,10 @@ function Routes() {
     return (
         <HashRouter>
             { 
-            /*
+            
                 // Comment it, to disable the redirection when username is undefined.
                 context.login.username === undefined && <Redirect to="/" exact component={SignIn} /> 
-            */
+            
             }
             <Route path="/" exact component={SignIn} />
             <Route path="/home" component={Home} />
