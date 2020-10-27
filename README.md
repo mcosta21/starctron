@@ -1,68 +1,132 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<p align="center">
+<img src="https://github.com/mcosta21/starctron/blob/master/src/assets/logo-starctron.png?raw=true" height="100" />
+</p>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="#backers" alt="Backers on Open Collective">
+      <img src="https://img.shields.io/opencollective/backers/shields" />
+  </a>
+  <a href="#backers" alt="Backers on Open Collective">
+      <img src="https://img.shields.io/opencollective/backers/shields" />
+  </a>
+</p>
 
-### `npm start`
+<h4 align="center">Your Electron template with React JS ready for you to enjoy your creativity.</h4>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h2></h2>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<details>
+<summary><strong>Summary<strong></summary>
+<br />
 
-### `npm test`
+   * [List of Badges, in Markdown](#list-of-badges-in-markdown)
+      * [Generic](#generic)
+      * [Useful](#useful)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</details>
 
-### `npm run build`
+<br />
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2>What is it?</h2>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<p align="justify">This application is basically a template project to help you with some basic features that we usually need develop, such as a collapsed menu, switch theme and a simple login. So, I created this app to make better use of time on new things. In addition, you can check other components such as Row, Column, Box, Switch Button, Toolbar, Title and Subtitle.</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="center">
+<img src="https://github.com/mcosta21/starctron/blob/master/images/banner-1.gif?raw=true" />
+</p>
 
-### `npm run eject`
+<br />
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<h2>Try yourself</h2>
+<p align="justify">Bearing in mind that this application is based on <strong>Electron.js</strong>, so we will need the <strong>Node</strong> installed on the machine. After that, you can use development editor like your preference, in my case, I used o <strong>Visual Studio Code</strong>.</p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> If you don't want to read the documentation here, I created some pages inside the app with the instructions like this. So, just do the clone and following the steps to install below.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+# Clone the repository
+$ git clone https://github.com/mcosta21/starctron.git
 
-## Learn More
+# Access the folder
+$ cd starctron
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Install the dependencies
+$ yarn or npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Launch the application
+$ yarn electron-dev or npm run electron-dev
+```
 
-### Code Splitting
+<br />
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+<h2>File Structure</h2>
 
-### Analyzing the Bundle Size
+```
+starctron
+│
+└─── src
+│   │   index.js
+│   │   routes.js
+│   │
+│   └─── assets
+│   │
+│   └─── components
+│       └───  Body
+│       └───  Menu
+│       └───  SwitchButton
+│       │   ...
+│   │
+│   └─── contexts
+│       │   LoginContext.js
+│       │   MenuContext.js
+│       │   ThemeContext.js
+│   │
+│   └─── pages
+│       └───  Home
+│       └───  SignIn
+│       └───  Layout
+│       │   ...
+│   │
+│   └─── screen
+│   │
+│   └─── services
+│   │
+│   └─── styles
+│       │   GlobalStyles.js
+│       │   theme.js
+│
+│   .env
+│   .gitignore
+│   package.json
+│   README.md
+│   README-pt-br.md   
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+```
 
-### Making a Progressive Web App
+<br />
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+<h2>Documentation</h2>
 
-### Advanced Configuration
+<br />
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+<h2>Read this in other languages</h2>
+ 
+<table>
+  <tr>
+    <th><img src="https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Brazil.png" /></th>
+    <th><a href="">Português / Portuguese</a></th>
+  </tr>
+  
+</table>
 
-### Deployment
+<br />
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+<h2>Author</h2>
 
-### `npm run build` fails to minify
+Marcio Costa [@mcosta21](https://twitter.com/alexandereardon)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[![Marcio's github stats](https://github-readme-stats.vercel.app/api?username=mcosta21&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
+
+<br />
+
