@@ -119,7 +119,7 @@ starctron
   <tr></tr>
   <td align="center">
   <p></p>
-    <a href="">
+    <a href="https://www.electronjs.org/">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/1200px-Electron_Software_Framework_Logo.svg.png" width="45"/>
     <p>Electron</p>
     </a>
@@ -127,7 +127,7 @@ starctron
   
   <td align="center">
    <p></p>
-    <a href="">
+    <a href="https://pt-br.reactjs.org/">
     <img src="https://cdn.auth0.com/blog/react-js/react.png" width="50"/>
     <p>React JS</p>
     </a>
@@ -135,7 +135,7 @@ starctron
   
   <td align="center">
    <p></p>
-    <a href="">
+    <a href="https://react-icons.github.io/react-icons/">
     <img src="https://camo.githubusercontent.com/0cd910e76658429374539a8d72a0608783918aae/68747470733a2f2f7261776769742e636f6d2f676f72616e67616a69632f72656163742d69636f6e732f6d61737465722f72656163742d69636f6e732e737667" width="48"/>
     <p>React Icons</p>
     </a>
@@ -143,7 +143,7 @@ starctron
  
   <td align="center">
    <p></p>
-    <a href="">
+    <a href="https://reactrouter.com/">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSIK9sjX5un1L83nejQwH5EGNKrDsEAfWSJPg&usqp=CAU" width="48"/>
     <p>React Router</p>
     </a>
@@ -151,7 +151,7 @@ starctron
      
   <td align="center">
    <p></p>
-    <a href="">
+    <a href="https://styled-components.com/">
     <img src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" width="48"/>
     <p>Styled Components</p>
     </a>
