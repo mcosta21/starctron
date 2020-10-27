@@ -113,7 +113,7 @@ starctron
 
 </p>
 
-<h3>Technologies</h3>
+<h3>🤖 Technologies</h3>
 
 <table style="width: 100% !important">
   <tr></tr>
@@ -159,7 +159,7 @@ starctron
  
 <table>
 
-<h3>Layout</h3>
+<h3>✨ Layout</h3>
 
 <p align="justify">
 Inside the app, you can use some components that it will help you to create your content, such as insert a box, with rows and columns. For example:
@@ -285,7 +285,7 @@ Inside the app, you can use some components that it will help you to create your
 
 <br />
 
-<h3>Menu Items</h3>
+<h3>📑 Menu Items</h3>
 
 <p align="justify">
   Navigating to components folder, you will find the Menu component. Note that its structure is based on options constant, which will be rendered by a map. Then, for each option, a React-router-dom Link is available with the following attributes:
@@ -298,18 +298,18 @@ Inside the app, you can use some components that it will help you to create your
 }
 ```
 
-> Finally, just access the routes.js file at the root of the project, and include the new routes for each page, correlating them with the option's link attribute.
+> Finally, just access the <strong>routes.js</strong> file at the root of the project, and include the new routes for each page, correlating them with the option's link attribute.
 
 </p>
 
 <br />
 
-<h3>Context</h3>
+<h3>🌐 Context</h3>
 
 <p align="justify">
 The Context API is how React makes data available from parent to child components via props. Thus, it's not necessary to explicitly pass the props on each component.
 
-Then, inside the src folder, you can see the contexts created, and which are in use in the application, for example:
+Then, inside the <strong>src</strong> folder, you can see the contexts created, and which are in use in the application, for example:
 
 <table>
   <tr>
@@ -329,16 +329,17 @@ Then, inside the src folder, you can see the contexts created, and which are in 
 </p>
 
 <br />
-<h3>User Login</h3>
+<h3>👤 User Login</h3>
 
 <p align="justify">
-As stated on the Context API page, we created a simple login system to keep the user throughout the session using the LoginContext, so you can access the services folder and customize <strong>user.js</strong> with your own method to connect to the database and integrate into the SignIn and ForgotPassword pages.
-
+As stated on the Context API page, we created a simple login system to keep the user throughout the session using the LoginContext, so you can access the services folder and customize <strong>user.js</strong> with your own method to connect to the database and integrate into the <strong>SignIn</strong> and <strong>ForgotPassword</strong> pages.
+</p>
+<p align="justify">
 In the <strong>routes.js</strong> file, note that there is a redirect to the <strong>SignIn</strong> page when there is no user in the session, with that, just comment on that line and go to development.
 </p>
 
 <br />
-<h3>Theme</h3>
+<h3>🌓 Theme</h3>
 
 <p align="justify">
 Accessing the <strong>styles</strong> folder, you can customize all the colors available in the application.
@@ -352,7 +353,7 @@ The <strong>theme.js</strong> file is the most important in this matter, since w
 </p>
 
 <br />
-<h3>Build the App</h3>
+<h3>🏆 Build the App</h3>
 
 <p align="justify">
 The best part of the project is a pre-configuration already done, this aims to make your life easier and not waste your time with certain project configurations.
