@@ -3,14 +3,14 @@
 <img src="https://github.com/mcosta21/starctron/blob/master/src/assets/logo-starctron.png?raw=true" height="100" />
 </p>
 
-<p align="center">
+<div align="center">
   <a href="#backers" alt="Backers on Open Collective">
       <img src="https://img.shields.io/opencollective/backers/shields" />
   </a>
   <a href="#backers" alt="Backers on Open Collective">
       <img src="https://img.shields.io/opencollective/backers/shields" />
   </a>
-</p>
+</div>
 
 <h4 align="center">Your Electron template with React JS ready for you to enjoy your creativity.</h4>
 
@@ -32,9 +32,9 @@
 
 <p align="justify">This application is basically a template project to help you with some basic features that we usually need develop, such as a collapsed menu, switch theme and a simple login. So, I created this app to make better use of time on new things. In addition, you can check other components such as Row, Column, Box, Switch Button, Toolbar, Title and Subtitle.</p>
 
-<p align="center">
+<div align="center">
 <img src="https://github.com/mcosta21/starctron/blob/master/images/banner-1.gif?raw=true" />
-</p>
+</div>
 
 <br />
 
@@ -119,6 +119,12 @@ starctron
   </tr>
   
 </table>
+
+<br />
+
+<h2>Download</h2>
+
+[![](https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/macappstore-lrg.svg)](https://apps.apple.com/us/app/gifski/id1351639930?mt=12)
 
 <br />
 
