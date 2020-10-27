@@ -17,7 +17,7 @@
 <h2></h2>
 
 <details>
-<summary><strong>Summary<strong></summary>
+<summary><strong>Summary</strong></summary>
 <br />
 
    * [List of Badges, in Markdown](#list-of-badges-in-markdown)
