@@ -527,7 +527,7 @@ Finally, open the terminal and run the following command:
  
 <table>
   <tr>
-    <th><img src="https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Brazil.png" /></th>
+    <th><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/259/flag-brazil_1f1e7-1f1f7.png" width="25"/></th>
     <th><a href="https://github.com/mcosta21/starctron/blob/master/README-pt-br.md">Português / Portuguese</a></th>
   </tr>
   

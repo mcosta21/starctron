@@ -529,8 +529,8 @@ Finalmente, abra o terminal e execute o seguinte comando:
  
 <table>
   <tr>
-    <th><img src="https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Brazil.png" /></th>
-    <th><a href="https://github.com/mcosta21/starctron/blob/master/README-pt-br.md">Português / Portuguese</a></th>
+    <th><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/259/flag-united-states_1f1fa-1f1f8.png" width="25"/></th>
+    <th><a href="https://github.com/mcosta21/starctron/blob/master/README.md">Inglês / English</a></th>
   </tr>
   
 </table>
