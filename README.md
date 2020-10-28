@@ -1,14 +1,25 @@
 
 <p align="center">
-<img src="https://github.com/mcosta21/starctron/blob/master/src/assets/logo-starctron.png?raw=true" height="100" />
+<img src="https://github.com/mcosta21/starctron/blob/master/images/logo-markdown.png?raw=true" height="130" />
 </p>
 
 <p align="center">
-  <a href="#backers1" alt="Backers on Open Collective">
-      <img src="https://img.shields.io/opencollective/backers/shields" />
+  <a>
+      <img alt="GitHub repo size"  src="https://img.shields.io/github/repo-size/mcosta21/starctron"/>
   </a>
-  <a href="#backers2" alt="Backers on Open Collective">
-      <img src="https://img.shields.io/opencollective/backers/shields" />
+  <a href="https://github.com/mcosta21/starctron/blob/master/LICENSE" >
+      <img alt="MIT license" src="https://img.shields.io/badge/License-MIT-blue.svg" >
+  </a>
+  <a>
+      <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/mcosta21/starctron" >
+  </a>
+</p>
+<p align="center">
+  <a>
+      <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/mcosta21/starctron?style=social" >
+  </a>
+  <a>
+      <img alt="GitHub forks" src="https://img.shields.io/github/forks/mcosta21/starctron?style=social" >
   </a>
 </p>
 
