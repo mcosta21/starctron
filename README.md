@@ -548,7 +548,7 @@ Finally, open the terminal and run the following command:
 
 <h2 id="author">Author</h2>
 
-Marcio Costa [@mcosta21](https://twitter.com/https://www.linkedin.com/in/marcio-costa-03131a149/)
+Marcio Costa [@mcosta21](https://www.linkedin.com/in/marcio-costa-03131a149/)
 
 [![Marcio's github stats](https://github-readme-stats.vercel.app/api?username=mcosta21&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
 
