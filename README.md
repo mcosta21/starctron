@@ -20,15 +20,26 @@
 <summary><strong>Summary</strong></summary>
 <br />
 
-   * [List of Badges, in Markdown](#list-of-badges-in-markdown)
-      * [Generic](#generic)
-      * [Useful](#useful)
+* [What is it?](#what-is-it)
+* [Try yourself](#try-yourself)
+* [File Structure](#file-structure)
+* [Documentation](#documentation)
+    * [Technologies](#technologies)
+    * [Layout](#layout)
+    * [Menu Items](#menu-items)
+    * [Context](#context)
+    * [User Login](#user-login)
+    * [Theme](#theme)
+    * [Build the App](#build-app)
+    * [User Login](#user-login)
+* [Read this in other language](#read-language)
+* [Download](#download)
+* [Author](#author)
 
 </details>
 
-<br />
 
-<h2>What is it?</h2>
+<h2 id="what-is-it">What is it?</h2>
 
 <p align="justify">This application is basically a template project to help you with some basic features that we usually need develop, such as a collapsed menu, switch theme and a simple login. So, I created this app to make better use of time on new things. In addition, you can check other components such as Row, Column, Box, Switch Button, Toolbar, Title and Subtitle.</p>
 
@@ -38,7 +49,7 @@
 
 <br />
 
-<h2>Try yourself</h2>
+<h2 id="try-yourself">Try yourself</h2>
 <p align="justify">Bearing in mind that this application is based on <strong>Electron.js</strong>, so we will need the <strong>Node</strong> installed on the machine. After that, you can use development editor like your preference, in my case, I used o <strong>Visual Studio Code</strong>.</p>
 
 > If you don't want to read the documentation here, I created some pages inside the app with the instructions like this. So, just do the clone and following the steps to install below.
@@ -60,7 +71,7 @@ $ yarn electron-dev or npm run electron-dev
 
 <br />
 
-<h2>File Structure</h2>
+<h2 id="file-structure">File Structure</h2>
 
 ```
 starctron
@@ -106,14 +117,14 @@ starctron
 
 <br />
 
-<h2>Documentation</h2>
+<h2 id="documentation">Documentation</h2>
 
 
 <p align="justify">
 
 </p>
 
-<h3>🤖 Technologies</h3>
+<h3 id="technologies">🤖 Technologies</h3>
 
 <table style="width: 100% !important">
   <tr></tr>
@@ -159,7 +170,7 @@ starctron
  
 <table>
 
-<h3>✨ Layout</h3>
+<h3 id="layout">✨ Layout</h3>
 
 <p align="justify">
 Inside the app, you can use some components that it will help you to create your content, such as insert a box, with rows and columns. For example:
@@ -285,7 +296,7 @@ Inside the app, you can use some components that it will help you to create your
 
 <br />
 
-<h3>📑 Menu Items</h3>
+<h3 id="menu-items">📑 Menu Items</h3>
 
 <p align="justify">
   Navigating to components folder, you will find the Menu component. Note that its structure is based on options constant, which will be rendered by a map. Then, for each option, a React-router-dom Link is available with the following attributes:
@@ -309,7 +320,7 @@ const options = [
 
 <br />
 
-<h3>🌐 Context</h3>
+<h3 id="context">🌐 Context</h3>
 
 <p align="justify">
 The Context API is how React makes data available from parent to child components via props. Thus, it's not necessary to explicitly pass the props on each component.
@@ -334,7 +345,7 @@ Then, inside the <strong>src</strong> folder, you can see the contexts created, 
 </p>
 
 <br />
-<h3>👤 User Login</h3>
+<h3 id="user-login">👤 User Login</h3>
 
 <p align="justify">
 As stated on the Context API page, we created a simple login system to keep the user throughout the session using the <strong>LoginContext</strong>, so you can access the <strong>services</strong> folder and customize <strong>user.js</strong> with your own method to connect to the database and integrate into the <strong>SignIn</strong> and <strong>ForgotPassword</strong> pages.
@@ -355,7 +366,7 @@ In the <strong>routes.js</strong> file, note that there is a redirect to the <st
 </p>
 
 <br />
-<h3>🌓 Theme</h3>
+<h3 id="theme">🌓 Theme</h3>
 
 <p align="justify">
 Accessing the <strong>styles</strong> folder, you can customize all the colors available in the application.
@@ -441,7 +452,7 @@ The <strong>theme.js</strong> file is the most important in this matter, since w
 </p>
 
 <br />
-<h3>🏆 Build the App</h3>
+<h3 id="build-app">🏆 Build the App</h3>
 
 <p align="justify">
 The best part of the project is a pre-configuration already done, this aims to make your life easier and not waste your time with certain project configurations.
@@ -502,29 +513,43 @@ Finally, open the terminal and run the following command:
 
 <br />
 
-<h2>Read this in other language</h2>
+<h2 id="read-language">Read this in other language</h2>
  
 <table>
   <tr>
     <th><img src="https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Brazil.png" /></th>
-    <th><a href="">Português / Portuguese</a></th>
+    <th><a href="https://github.com/mcosta21/starctron/blob/master/README-pt-br.md">Português / Portuguese</a></th>
   </tr>
   
 </table>
 
 <br />
 
-<h2>Download</h2>
+<h2 id="download">Download</h2>
 
-[![](https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/macappstore-lrg.svg)](https://apps.apple.com/us/app/gifski/id1351639930?mt=12)
+<a href="https://drive.google.com/drive/folders/1lk48QC6YhR-4ZD9RPq7log2tdFWKXRJI?usp=sharing">
+<img src="https://github.com/mcosta21/starctron/blob/master/images/button-windows.png?raw=true" alt="Download for Windows" width="200"/>
+</a>
 
 <br />
 
-<h2>Author</h2>
+<br />
 
-Marcio Costa [@mcosta21](https://twitter.com/alexandereardon)
+<h2 id="author">Author</h2>
+
+Marcio Costa [@mcosta21](https://twitter.com/https://www.linkedin.com/in/marcio-costa-03131a149/)
 
 [![Marcio's github stats](https://github-readme-stats.vercel.app/api?username=mcosta21&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
+
+<div align="center">
+💪
+<div>
+<p align="center">
+Contributions are welcome! 
+</p>
+<h4 align="center">
+Made with ❤️ and JavaScript.
+</h4>
 
 <br />
 
