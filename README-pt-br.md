@@ -1,36 +1,57 @@
 
 <p align="center">
-<img src="https://github.com/mcosta21/starctron/blob/master/src/assets/logo-starctron.png?raw=true" height="100" />
+<img src="https://github.com/mcosta21/starctron/blob/master/images/logo-markdown.png?raw=true" height="130" />
 </p>
 
 <p align="center">
-  <a href="#backers1" alt="Backers on Open Collective">
-      <img src="https://img.shields.io/opencollective/backers/shields" />
+  <a>
+      <img alt="GitHub repo size"  src="https://img.shields.io/github/repo-size/mcosta21/starctron"/>
   </a>
-  <a href="#backers2" alt="Backers on Open Collective">
-      <img src="https://img.shields.io/opencollective/backers/shields" />
+  <a href="https://github.com/mcosta21/starctron/blob/master/LICENSE" >
+      <img alt="MIT license" src="https://img.shields.io/badge/License-MIT-blue.svg" >
+  </a>
+  <a>
+      <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/mcosta21/starctron" >
+  </a>
+</p>
+<p align="center">
+  <a>
+      <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/mcosta21/starctron?style=social" >
+  </a>
+  <a>
+      <img alt="GitHub forks" src="https://img.shields.io/github/forks/mcosta21/starctron?style=social" >
   </a>
 </p>
 
-<h4 align="center">Your Electron template with React JS ready for you to enjoy your creativity.</h4>
+<h4 align="center">Seu template Electron com React JS pronto para aproveitar sua criatividade.</h4>
 
 <h2></h2>
 
 <details>
-<summary><strong>Summary</strong></summary>
+<summary><strong>Sumário</strong></summary>
 <br />
 
-   * [List of Badges, in Markdown](#list-of-badges-in-markdown)
-      * [Generic](#generic)
-      * [Useful](#useful)
+* [O que é isso?](#what-is-it)
+* [Tente você mesmo](#try-yourself)
+* [Estrutura de Arquivo](#file-structure)
+* [Documentação](#documentation)
+    * [Tecnologias](#technologies)
+    * [Layout](#layout)
+    * [Itens do Menu](#menu-items)
+    * [Contexto](#context)
+    * [Login de Usuário](#user-login)
+    * [Tema](#theme)
+    * [Crie o Aplicativo](#build-app)
+* [Leia isso em outro idioma](#read-language)
+* [Baixar](#download)
+* [Autor](#author)
 
 </details>
 
-<br />
 
-<h2>What is it?</h2>
+<h2 id="what-is-it">O que é isso?</h2>
 
-<p align="justify">This application is basically a template project to help you with some basic features that we usually need develop, such as a collapsed menu, switch theme and a simple login. So, I created this app to make better use of time on new things. In addition, you can check other components such as Row, Column, Box, Switch Button, Toolbar, Title and Subtitle.</p>
+<p align="justify">Este aplicativo é basicamente um projeto template para ajudá-lo com alguns recursos básicos que normalmente precisamos desenvolver, como um collapsed menu, switch theme e um login simples. Então, criei este aplicativo para aproveitar melhor o tempo em coisas novas. Além disso, você pode verificar outros componentes, como Linha (Row), Coluna (Column), Caixa (Box), Switch Button, Barra de ferramentas (Toolbar), Título (Title) and Subtítulo (Subtitle).</p>
 
 <p align="center">
 <img src="https://github.com/mcosta21/starctron/blob/master/images/banner-1.gif?raw=true" />
@@ -38,29 +59,29 @@
 
 <br />
 
-<h2>Try yourself</h2>
-<p align="justify">Bearing in mind that this application is based on <strong>Electron.js</strong>, so we will need the <strong>Node</strong> installed on the machine. After that, you can use development editor like your preference, in my case, I used o <strong>Visual Studio Code</strong>.</p>
+<h2 id="try-yourself">Tente você mesmo</h2>
+<p align="justify">Lembrando que este aplicativo é baseado em <strong>Electron.js</strong>, então vamos precisar do <strong>Node</strong> instalado na máquina. Depois disso, você pode usar o editor de desenvolvimento de sua preferência, no meu caso, usei o <strong>Visual Studio Code</strong>.</p>
 
-> If you don't want to read the documentation here, I created some pages inside the app with the instructions like this. So, just do the clone and following the steps to install below.
+> Se você não quiser ler a documentação aqui, criei algumas páginas dentro do aplicativo com instruções como esta. Então, basta fazer o clone e seguir os passos de instalação abaixo.
 
 
 ```bash
-# Clone the repository
+# Clone o repositório
 $ git clone https://github.com/mcosta21/starctron.git
 
-# Access the folder
+# Acesse a pasta
 $ cd starctron
 
-# Install the dependencies
+# Instale as dependências
 $ yarn or npm install
 
-# Launch the application
+# Inicie o aplicativo
 $ yarn electron-dev or npm run electron-dev
 ```
 
 <br />
 
-<h2>File Structure</h2>
+<h2 id="file-structure">Estrutura de Arquivo</h2>
 
 ```
 starctron
@@ -106,14 +127,14 @@ starctron
 
 <br />
 
-<h2>Documentation</h2>
+<h2 id="documentation">Documentação</h2>
 
 
 <p align="justify">
 
 </p>
 
-<h3>🤖 Technologies</h3>
+<h3 id="technologies">🤖 Tecnologias</h3>
 
 <table style="width: 100% !important">
   <tr></tr>
@@ -159,13 +180,13 @@ starctron
  
 <table>
 
-<h3>✨ Layout</h3>
+<h3 id="layout">✨ Layout</h3>
 
 <p align="justify">
-Inside the app, you can use some components that it will help you to create your content, such as insert a box, with rows and columns. For example:
+Dentro do aplicativo, você pode utilizar alguns componentes que o ajudarão a criar seu conteúdo, como inserir uma caixa, com linhas e colunas. Por exemplo:
 </p>
 
-<h4>Row with 1 column</h4>
+<h4>Linha com 1 coluna</h4>
 <img align="center" src="https://github.com/mcosta21/starctron/blob/master/images/example-row-column1.png?raw=true">
 
 <br/>
@@ -180,7 +201,7 @@ Inside the app, you can use some components that it will help you to create your
   </Row>
 ```
 
-<h4>Row with 2 columns</h4>
+<h4>Linha com 2 colunas</h4>
 <img align="center" src="https://github.com/mcosta21/starctron/blob/master/images/example-row-column2.png?raw=true">
 
 <br/>
@@ -200,7 +221,7 @@ Inside the app, you can use some components that it will help you to create your
   </Row>
 ```
 
-<h4>Row with 3 proportional columns</h4>
+<h4>Linha com 3 colunas proporcionais</h4>
 <img align="center" src="https://github.com/mcosta21/starctron/blob/master/images/example-row-column3.png?raw=true">
 
 <br/>
@@ -225,7 +246,7 @@ Inside the app, you can use some components that it will help you to create your
   </Row>
 ```
 
-<h4>Row with 2 columns with different sizes</h4>
+<h4>Linha com 2 colunas com tamanhos distintos</h4>
 <img align="center" src="https://github.com/mcosta21/starctron/blob/master/images/example-row-column-70-30.png?raw=true">
 
 <br/>
@@ -245,7 +266,7 @@ Inside the app, you can use some components that it will help you to create your
   </Row>
 ```
 
-<h4>2 rows with 2 columns of different sizes</h4>
+<h4>2 Linhas com 2 colunas com tamanhos distintos</h4>
 <img align="center" src="https://github.com/mcosta21/starctron/blob/master/images/example-rows2-columns-differents-sizes.png?raw=true">
 
 <br/>
@@ -285,10 +306,11 @@ Inside the app, you can use some components that it will help you to create your
 
 <br />
 
-<h3>📑 Menu Items</h3>
+<h3 id="menu-items">📑 Itens do menu</h3>
 
 <p align="justify">
-  Navigating to components folder, you will find the Menu component. Note that its structure is based on options constant, which will be rendered by a map. Then, for each option, a React-router-dom Link is available with the following attributes:
+
+Navegando para a pasta de componentes, você encontrará o componente Menu. Observe que sua estrutura é baseada na constante options, que serão renderizadas por um map. Então, para cada opção, um Link React-router-dom está disponível com os seguintes atributos:
 
 ```javascript
 const options = [
@@ -300,7 +322,7 @@ const options = [
 ];
 ```
 
-> Finally, just access the <strong>routes.js</strong> file at the root of the project, and include the new routes for each page, correlating them with the option's link attribute.
+> Por fim, basta acessar o arquivo <strong>routes.js</strong> na raiz do projeto, e incluir as novas rotas para cada página, correlacionando-as com o atributo link da constante options.
 
 <br />
 <img src="https://github.com/mcosta21/starctron/blob/master/images/example-menu-items.png?raw=true" />
@@ -309,35 +331,36 @@ const options = [
 
 <br />
 
-<h3>🌐 Context</h3>
+<h3 id="context">🌐 Contexto</h3>
 
 <p align="justify">
-The Context API is how React makes data available from parent to child components via props. Thus, it's not necessary to explicitly pass the props on each component.
 
-Then, inside the <strong>src</strong> folder, you can see the contexts created, and which are in use in the application, for example:
+A API Context é como o React disponibiliza os dados dos componentes pai para filho por meio das props. Assim, não é necessário passar explicitamente as props em cada componente.
+
+Então, dentro da pasta <strong>src</strong>, você pode ver os contextos criados e que estão em uso no aplicativo, por exemplo:
 
 <table>
   <tr>
   <td><strong>LoginContext</strong></td>
-  <td>This context is responsible for keeping the session user in all components.</td>
+  <td>Esse context é responsável por manter o usuário da sessão em todos os componentes.</td>
   </tr>
   <tr>
   <td><strong>MenuContext</strong></td>
-  <td>This context is used by the Menu component to maintain the width state provided by the isSmallMenu attribute.</td>
+  <td>Esse context é utilizado pelo componente Menu para manter o estado de largura ministrado pelo atributo isSmallMenu.</td>
   </tr>
   <tr>
   <td><strong>ThemeContext</strong></td>
-  <td>This context is responsible for managing the application theme between light e dark.</td>
+  <td>Esse context é responsável por gerenciar o tema da aplicação entre light e dark.</td>
   </tr>
 <table>
 
 </p>
 
 <br />
-<h3>👤 User Login</h3>
+<h3 id="user-login">👤 Login de Usuário</h3>
 
 <p align="justify">
-As stated on the Context API page, we created a simple login system to keep the user throughout the session using the <strong>LoginContext</strong>, so you can access the <strong>services</strong> folder and customize <strong>user.js</strong> with your own method to connect to the database and integrate into the <strong>SignIn</strong> and <strong>ForgotPassword</strong> pages.
+Conforme declarado na página <strong>Context API</strong>, criamos um sistema de login simples para manter o usuário em toda a sessão usando a <strong>LoginContext</strong>, então você pode acessar a pasta de <strong>services</strong> e personalizar o <strong>user.js</strong> com seu próprio método para se conectar ao banco de dados e integrar nas páginas <i>SignIn</i> e <i>ForgotPassword</i>.
 </p>
 
 ```json
@@ -351,17 +374,17 @@ As stated on the Context API page, we created a simple login system to keep the 
 ```
 
 <p align="justify">
-In the <strong>routes.js</strong> file, note that there is a redirect to the <strong>SignIn</strong> page when there is no user in the session, with that, just comment on that line and go to development.
+No arquivo <strong>routes.js</strong>, note que tem um redirecionamento para a página <strong>SignIn</strong> quando não há usuário na sessão, com isso, basta comentar essa linha e partir para o desenvolvimento.
 </p>
 
 <br />
-<h3>🌓 Theme</h3>
+<h3 id="theme">🌓 Tema</h3>
 
 <p align="justify">
-Accessing the <strong>styles</strong> folder, you can customize all the colors available in the application.
+Acessando a pasta <strong>styles</strong>, você pode customizar todas as cores disponíveis no aplicativo.
 </p>
 <p align="justify">
-The <strong>GlobalStyles.js</strong> file contains all the styles applied to the global theme. And in the <strong>theme.js</strong> file, it contains the variables referring to the light and dark themes, in addition to a set of auxiliary colors.
+No arquivo <i>GlobalStyles.js</i> contém todos os estilos aplicados ao tema global. E no arquivo <i>theme.js</i>, contém as variáveis referentes aos temas <strong>light</strong> e <strong>dark</strong>, além de um conjunto de cores auxiliares.
 </p>
 
 > Light theme
@@ -436,21 +459,21 @@ export const colorsTheme = {
 ```
 
 <p align="justify">
-The <strong>theme.js</strong> file is the most important in this matter, since we use it in ThemeContext to manage the current theme of the application, as we can see by clicking on a <strong>SwitchButton</strong>. So, if you want to customize the themes, just change the attributes of each variable.
+O arquivo <strong>theme.js</strong> é o mais importante nesse assunto, dado que o utilizamos no <strong>ThemeContext</strong> para gerenciar o tema atual da aplicação, como podemos observar ao clicar num <strong>SwitchButton</strong>. Então, caso queira customizar os temas, basta alterar os atributos de cada variável.
 
 </p>
 
 <br />
-<h3>🏆 Build the App</h3>
+<h3 id="build-app">🏆 Crie o Aplicativo</h3>
 
 <p align="justify">
-The best part of the project is a pre-configuration already done, this aims to make your life easier and not waste your time with certain project configurations.
+A melhor parte do projeto é a pré-configuração já feita, isso visa facilitar sua vida e não te fazer perder tempo com certas configurações de projeto.
 </p>
 <p align="justify">
-So, before we go into the build process, it will be necessary to make small changes to the application. Of course, this should be done if you want the name and icons customized to your liking.
+Então, antes de partirmos para o processo de <strong>build</strong>, será necessário fazer pequenas alterações no aplicativo. Claro que isso deve ser feito se você quiser o nome e icones personalizados a seu gosto.
 </p>
 <p align="justify">
-First, we will make some changes to the files contained in the public folder. Then find the <strong>index.html</strong> file and change the <strong>title</strong> tag to your application name.
+Primeiramente, faremos algumas alterações nos arquivos contidos na pasta <strong>public</strong>. Então localize o arquivo <strong>index.html</strong> e altere a tag <strong>'title'</strong> para o nome do seu aplicativo.
 </p>
 
 ```
@@ -458,15 +481,15 @@ First, we will make some changes to the files contained in the public folder. Th
 ```
 
 <p align="justify">
-After that, access the electron settings file, where you can customize several things such as window size, menu and icon.
+Após isso, acesse o arquivo de configurações do electron, e nele, você pode customizar diversas coisas como tamanho da janela, menu e icone.
 </p>
 
 <p align="justify">
-The <strong>createWindow</strong> function has attributes like width, height and icon, customize them at will. Note also that, even informing the size attributes of the window, the call <strong>mainWindow.maximize()</strong> keeps the screen at maximize, if you want to change that, just remove the command.
+A função <strong>createWindow</strong> possui atributos como width, height e icon, customize-os a vontade. Note também que, mesmo informando os atributos de tamanho da janela, a chamada <strong>mainWindow.maximize()</strong> mantém a tela em maximaze, caso queira mudar isso, apenas remova o comando.
 </p>
 
 <p align="justify">
-Now that we've made these customizations, let's move on to the build process of the application. Then, access the <strong>package.json</strong> file. In this file, you'll see all the necessary information for the application, such as name, description, dependencies, scripts, etc. So, remember to change the following attributes:
+Agora que fizemos essas personalizações, vamos para o processo de <strong>build</strong> do aplicativo. Então, acesse o arquivo <strong>package.json</strong>. Nesse arquivo, você verá todas as informações necessárias do aplicativo, tais como nome, descrição, dependências, scripts e etc. Então, lembre-se de alterações os seguintes atributos:
 </p>
 
 ```json
@@ -478,7 +501,7 @@ Now that we've made these customizations, let's move on to the build process of 
 ```
 
 <p align="justify">
-And most importantly, the build attribute contains the appId, don't forget to change it, if you are making your own application, on the contrary, the installer will replace it.
+E o mais importante, o atributo <strong>build</strong> contém o <strong>appId</strong>, não se esqueça de troca-lo, caso esteja fazendo seu próprio aplicativo, no contrário, o instalador irá substitui-lo.
 </p>
 
 ```json
@@ -491,40 +514,54 @@ And most importantly, the build attribute contains the appId, don't forget to ch
 ```
 
 <p>
-Finally, open the terminal and run the following command:
+Finalmente, abra o terminal e execute o seguinte comando:
 </p>
 
 <h4 align="center">yarn electron-pack<h4>
 <h4 align="center">npm run electron-pack<h4>
 
-> After finishing the process, a folder called <strong>dist</strong> will be created, there will be the installer file ready for use 🚀.
+> Após finalizar o processo, será criado uma pasta chamada <strong>dist</strong>, nela haverá o arquivo instalador pronto para uso 🚀.
 
 
 <br />
 
-<h2>Read this in other language</h2>
+<h2 id="read-language">Leia isso em outro idioma</h2>
  
 <table>
   <tr>
     <th><img src="https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Brazil.png" /></th>
-    <th><a href="">Português / Portuguese</a></th>
+    <th><a href="https://github.com/mcosta21/starctron/blob/master/README-pt-br.md">Português / Portuguese</a></th>
   </tr>
   
 </table>
 
 <br />
 
-<h2>Download</h2>
+<h2 id="download">Baixar</h2>
 
-[![](https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/macappstore-lrg.svg)](https://apps.apple.com/us/app/gifski/id1351639930?mt=12)
+<a href="https://drive.google.com/drive/folders/1lk48QC6YhR-4ZD9RPq7log2tdFWKXRJI?usp=sharing">
+<img src="https://github.com/mcosta21/starctron/blob/master/images/button-windows.png?raw=true" alt="Download for Windows" width="200"/>
+</a>
 
 <br />
 
-<h2>Author</h2>
+<br />
 
-Marcio Costa [@mcosta21](https://twitter.com/alexandereardon)
+<h2 id="author">Autor</h2>
 
-[![Marcio's github stats](https://github-readme-stats.vercel.app/api?username=mcosta21&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
+Marcio Costa [@mcosta21](https://www.linkedin.com/in/marcio-costa-03131a149/)
+
+[![Marcio's github stats](https://github-readme-stats.vercel.app/api?username=mcosta21&theme=dracula)](https://github.com/mcosta21)
+
+<div align="center">
+💪
+<div>
+<p align="center">
+As contribuições são bem-vindas! 
+</p>
+<h4 align="center">
+Feito com ❤️ e JavaScript.
+</h4>
 
 <br />
 

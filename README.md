@@ -42,7 +42,6 @@
     * [User Login](#user-login)
     * [Theme](#theme)
     * [Build the App](#build-app)
-    * [User Login](#user-login)
 * [Read this in other language](#read-language)
 * [Download](#download)
 * [Author](#author)
@@ -550,7 +549,7 @@ Finally, open the terminal and run the following command:
 
 Marcio Costa [@mcosta21](https://www.linkedin.com/in/marcio-costa-03131a149/)
 
-[![Marcio's github stats](https://github-readme-stats.vercel.app/api?username=mcosta21&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
+[![Marcio's github stats](https://github-readme-stats.vercel.app/api?username=mcosta21&theme=dracula)](https://github.com/mcosta21)
 
 <div align="center">
 💪

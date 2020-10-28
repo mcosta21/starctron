@@ -170,7 +170,7 @@ function BuildApp() {
                     </Navigator>
 
                     Nesse arquivo, você verá todas as informações necessárias do aplicativo, tais como nome, descrição, 
-                    dependências, scripts e etc. Então, lembre-se de alterações os seguites atributos:
+                    dependências, scripts e etc. Então, lembre-se de alterações os seguintes atributos:
                     
                     <Navigator>
                       {'{'}
